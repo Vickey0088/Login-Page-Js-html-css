@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign-Up Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+</head>
+
+<body class="body">
+    <section>
+       <div class="main">
+            
+            <section id="login-form" class="main-container">
+                <div class="content">
+                    <h1>Welcome Back<p>Frontend Web Developer</p></h1>
+                </div>
+                <div class="container-1">
+                    <h1>Login Page</h1>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Enter your email"><br/><br/>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password"><br/><br/>
+                    
+                    <button type="button" id="page" class="button" onclick="showpage()">Login</button>
+                    <br/><br/>
+                    <a href="#" class="forget">Forgot password?</a>
+                    <br/><br/>
+                    <span class="signup">Don't have an account?
+                        <button type="button" class="button" onclick="showSignUp()">Sign up</button>
+                    </span>
+                </div>
+            </section>
+
+
+            <section id="signup-form" class="main-container" style="display: none;">
+                <div class="content">
+                    <h1>Create Account</h1>
+                </div>
+                <div class="container-1">
+                    <h1>Sign Up Page</h1>
+                    <label for="signup-email">Email:</label>
+                    <input type="text" id="signup-email" placeholder="Enter your email"><br/><br/>
+                    <label for="signup-password">Password:</label>
+                    <input type="password" id="signup-password" placeholder="Enter your password"><br/><br/>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password"><br/><br/>
+                    
+                    <button type="button" class="button">Sign Up</button>
+                    <br/><br/>
+                    <span class="login">Already have an account?
+                        <button type="button" class="button" onclick="showLogin()">Login</button>
+                    </span>
+                </div>
+            </section>
+
+        
+            <div class="image" >
+                <img src="./images/house.jpg" alt="Background Image" />
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

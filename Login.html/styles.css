@@ -1,0 +1,144 @@
+.body {
+    background-color: rgb(203, 226, 208);
+    background-image: url(./images/back.jpg);
+}
+
+
+
+.main {
+    width: 1350px;
+    height: 700px;
+    background-color: rgb(241, 236, 236);
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 70px;
+    display: flex;
+    gap: 80px;
+  
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-1 {
+    width: 400px;
+    height: 470px;
+    background-image: url(./images/back.jpg);
+    text-align: center;
+    margin-left: 60px;
+    border-radius: 50px;
+   margin-bottom: 60px;
+    padding-top: 10px;
+}
+
+.image img {
+    width: 800px;
+    border-radius: 50px;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.image img:hover{
+    transform: scale(1.03);
+}
+
+.content {
+    margin-left: 50px;
+    margin-top: 5px;
+    color: rgb(8, 8, 10);
+    font-weight: 300;
+    
+}
+
+.content h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-left: 2px;
+}
+
+.content h1 p{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.container-1 h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    color: rgb(12, 12, 13);
+}
+
+.container-1 input {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px;
+    width: 80%;
+}
+
+.container-1 label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.button {
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    font-size: 20px;
+    background-color: rgb(15, 235, 118);
+    color: azure;
+    transition: all 0.3s ease;
+}
+
+.forget {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.forget:hover {
+    font-size: 20px;
+    color: red;
+    transition: all 0.3s ease;
+}
+
+.signup {
+    font-size: 18px;
+}
+
+.signup:hover {
+    font-size: 20px;
+    color: red;
+    transition: all 0.3s ease;
+}
+
+.login {
+    font-size: 18px;
+}
+
+.login:hover {
+    font-size: 20px;
+    color: red;
+    transition: all 0.3s ease;
+}
+
+
